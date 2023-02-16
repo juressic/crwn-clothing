@@ -11,7 +11,7 @@ export const ProductCartContainer = styled.div`
   img {
     width: 100%;
     height: 95%;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 5px;
   }
 
@@ -49,5 +49,7 @@ export const Name = styled.span`
 `;
 
 export const Price = styled.span`
-  width: 10%;
+  width: 50%;
+  font-size: 28px;
+  font-weight: bold;
 `;
